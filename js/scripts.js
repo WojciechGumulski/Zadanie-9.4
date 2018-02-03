@@ -9,5 +9,12 @@ function drawTree(h) {
 	}
 }
 
-var a = prompt('podaj wysokość choinki');
-drawTree(a);
+
+var navigation = document.getElementsByClassName('menuItem');
+
+console.log(navigation[0].style);
+
+navigation[0].style.background = 'red';
+navigation[0].style.padding = '10px';
+
+console.log(navigation[0].style);
